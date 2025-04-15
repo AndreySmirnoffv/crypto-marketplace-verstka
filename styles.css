@@ -9,13 +9,19 @@ body{
 
 .wrapper{
     margin: 0 auto;
-    width: 90%;
+    width: 99%;
+}
+
+header{
+    border-bottom: .5px solid white;
 }
 
 .nav {
+    width: 90%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 auto;
 }
 
 .nav__left {
@@ -60,16 +66,19 @@ body{
 
 
 .nav__button {
+    background-image: linear-gradient(to right, #FF512F 0%, #F09819  51%, #FF512F  100%);
+    font-size: 15px;
     height: 50px;
-    width: 100px;
-    padding: 10px;
+    width: 150px;
+    padding: 5px;
     border: none;
-    color: black;
+    color: white;
+    font-weight: bold;
     cursor: pointer;
     margin-left: 10px;
-    background: #f8973c;
     font-weight: bold;
     border-radius: 10px;
+    transform: .5s;
 }
 
 .nav__button:hover{
